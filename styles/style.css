@@ -10,6 +10,8 @@
   
   header {
     background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -44,12 +46,16 @@
   
   main {
    background-image: url("https://cdn.pixabay.com/photo/2016/07/03/00/15/sun-1494070_640.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
   
   }
 
   
   .sinopsis {
     background-image: url(https://media.istockphoto.com/id/1328689113/es/foto/cielo-azul-de-verano-y-fondo-blanco-de-nubes-blancas-hermosa-nubes-claras-en-la-temporada-de.jpg?s=612x612&w=0&k=20&c=nP6H-dFBV2mh8panp_qJ9PYdoDSUyHUX31oqL4dpjgU=);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     gap: 10px;
     padding: 20px;
@@ -127,11 +133,8 @@
     align-items: center;
     gap: 20px;
     height: 50%;
-    
-    margin: 20px;
-   
-    
-    border-radius: 10px;
+    margin: 0px;
+   border-radius: 10px;
 
   }
   
